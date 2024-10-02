@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .ma{
+        display: grid;
+        grid-template-columns: auto auto  auto auto;
+        gap: 15px;
+        padding: 10px;
+        font-size: x-large;
+
+    }
+    .box3,.box4,.box5{
+        border: 2px solid #c0c0c0;
+        background-color: #c0c0c0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box1{
+        background-color: #c0c0c0;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: -1;
+        padding: 20px;
+    }
+    .box2{
+        grid-column-start: 1;
+        grid-column-end:2 ;
+        grid-row-start: 2;
+        grid-row-end:4;
+        padding: 100px;
+
+    }
+    .box3{
+        grid-column-start: 2;
+        grid-column-end:-1 ;
+        padding: 30px;
+        height: 30vh;
+
+    }
+    .box4{
+        grid-column-start: 2;
+        grid-column-end:-1 ;
+        padding: 70px;
+        height: 50vh;
+       
+
+    }
+    .box5{
+        grid-column-start: 1;
+        grid-column-end:-1 ;
+        padding: 20px;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="ma">
+    <div class="box1">logo</div>
+    <div class="box2"> side bar navigation</div>
+    <div class="box3">header/banner</div>
+    <div class="box4">body area</div>
+    <div class="box5">footer</div>
+</div>
+</body>
+</html>

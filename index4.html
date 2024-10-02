@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grandfather{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+            row-gap: 20px;
+           column-gap: 10px;
+            font-size: x-large;
+             height: 100vh;  
+        }
+    
+        .grandfather>.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10{
+            
+             /* border: 2px solid #bebebe; */
+    background-color: #bebebe;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+
+        }
+        .item1,.item10{
+            grid-column-start:1 ;
+            grid-column-end:13;
+            padding: 10px;
+
+        }
+        .item2{
+            grid-column-start:1 ;
+            grid-column-end: 13;
+            padding: 10px;
+
+        }
+          .item3{
+            grid-column-start:1 ;
+            grid-column-end: 4;
+            padding: 3px;
+        }
+        .item4{
+            grid-column-start:4 ;
+            grid-column-end: 7;
+            padding: 3px;
+
+        }
+        .item5{
+            grid-column-start:7 ;
+            grid-column-end: 10;
+            padding: 3px;
+
+        }
+        .item6{
+            grid-column-start:10;
+            grid-column-end:13;
+            padding: 3px;
+
+        } 
+          .item7{
+            grid-column-start:1;
+            grid-column-end:9;
+            grid-row-start: 4;
+            grid-row-end: 6;
+           padding: 100px;
+          }
+            .item8{
+            grid-column-start:9;
+            grid-column-end: 13; 
+            grid-row-start: 4;
+            grid-row-end: 5;
+           padding: 40px; 
+        } 
+        .item9{
+            grid-row-start:5;
+            grid-row-end: 6; 
+            grid-column-start:9;
+            grid-column-end: 13;
+            padding: 60px;
+        }
+       
+    </style>
+</head>                                                    
+<body>
+   <div class="grandfather">
+   <div class="item1">company logo and slogan</div>
+   <div class="item2">header</div> 
+    <div class="item3">navigation</div>
+   <div class="item4"></div>
+   <div class="item5"></div>
+   <div class="item6"></div>
+  <div class="item7">about</div>
+   <div class="item8">quick link</div>
+   <div class="item9">quick link</div>
+   <div class="item10">site plan and copyright info</div>
+
+   </div> 
+</body>
+</html>

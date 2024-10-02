@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grandfather{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+           gap: 30px;
+           height: 100vw;
+        }
+        .box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9,.box-10{
+            background-color: #bebebe;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: x-large;
+            font-weight: 700;
+        }
+        .box-1{
+            grid-column-start:1;
+            grid-column-end: 13;
+            padding: 20px;
+            background-color: #bebebe;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            font-size: x-large;
+            font-weight: 700;
+        }
+
+  .need1{
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+padding: 30px;
+background-color: #bebebe;
+        }
+   .need2{
+    grid-column-start: 4;
+grid-column-end: 7;
+grid-row-start: 2;
+grid-row-end: 3;
+padding: 30px;
+background-color: #bebebe;
+        }
+   .need3{
+    grid-column-start: 7;
+grid-column-end: 10;
+grid-row-start: 2;
+grid-row-end: 3;
+padding: 30px;
+background-color: #bebebe;
+}
+.need4{
+    grid-column-start: 10;
+grid-column-end: 13;
+grid-row-start: 2;
+grid-row-end: 3;
+padding: 30px;
+background-color: #bebebe;
+}
+.need5{
+    grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 3;
+grid-row-end: 4;
+padding: 30px;
+background-color: #bebebe;
+}
+.need6{
+    grid-column-start: 4;
+grid-column-end: 7;
+grid-row-start: 3;
+grid-row-end: 4;
+padding: 30px;
+background-color: #bebebe;
+}
+.need7{
+    grid-column-start: 7;
+grid-column-end: 10;
+grid-row-start: 3;
+grid-row-end: 4;
+padding: 30px;
+background-color: #bebebe;
+}
+.need8{
+    grid-column-start: 10;
+grid-column-end: 13;
+grid-row-start: 3;
+grid-row-end: 4;
+padding: 30px;
+background-color: #bebebe;
+}
+.need9{
+    grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 4;
+grid-row-end: 5;
+padding: 30px;
+background-color: #bebebe;
+}
+.need10{
+    grid-column-start: 4;
+grid-column-end: 7;
+grid-row-start:4;
+grid-row-end:5;
+padding: 30px;
+background-color: #bebebe;
+}
+.need11{
+    grid-column-start: 7;
+grid-column-end: 10;
+grid-row-start: 4;
+grid-row-end: 5;
+padding: 30px;
+background-color: #bebebe;
+}
+.need12{
+    grid-column-start: 10;
+grid-column-end: 13;
+grid-row-start: 4;
+grid-row-end: 5;
+padding: 30px;
+background-color: #bebebe;
+}
+.need13{
+    grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 5;
+grid-row-end: 6;
+padding: 30px;
+background-color: #bebebe;
+}
+.need14{
+    grid-column-start: 4;
+grid-column-end: 7;
+grid-row-start: 5;
+grid-row-end: 6;
+padding: 30px;
+background-color: #bebebe;
+}
+.need15{
+    grid-column-start: 7;
+grid-column-end: 10;
+grid-row-start: 5;
+grid-row-end: 6;
+padding: 30px;
+background-color: #bebebe;
+}
+.need16{
+    grid-column-start: 10;
+grid-column-end: 13;
+grid-row-start:5;
+grid-row-end: 6;
+padding: 30px;
+background-color: #bebebe;
+}
+.box-3{ grid-column-start: 1;
+    grid-column-end: 5;
+padding: 100px;
+}
+.box-4{ grid-column-start: 5;
+    grid-column-end: 9;
+padding: 100px;
+}
+.box-5 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+padding: 100px;
+}
+.box-6 {
+    grid-column-start: 1;
+    grid-column-end: 13;
+padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="grandfather">
+        <div class="box-1">
+            <div class="one">Logo</div>
+            <div class="one">Navigation</div>
+        </div>
+            <div class="need1"></div>
+            <div  class="need2"></div>
+            <div  class="need3"></div>
+            <div class="need4"></div>
+            <div class="need5"></div>
+            <div class="need6"></div>
+            <div class="need7"></div>
+            <div class="need8"></div>
+            <div class="need9"></div>
+            <div  class="need10"></div>
+            <div  class="need11"></div>
+            <div  class="need12"></div>
+            <div  class="need13"></div>
+            <div  class="need14"></div>
+            <div  class="need15"></div>
+            <div  class="need16"></div>
+        <div class="box-3">box-1</div>
+        <div class="box-4">box-2</div>
+        <div class="box-5">box-3</div>
+        <div class="box-6">footer</div>
+       </div>    
+</body>
+</html>

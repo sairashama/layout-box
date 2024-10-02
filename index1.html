@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grandfather {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  /* background-color: #c0c0c0; */
+  padding: 10px;
+  /* height: 100vw; */
+}
+  .grandfather>.item1{
+    /* text-align: center; */
+  padding: 20px 0;
+  font-size: 30px;
+  background-color: #c0c0c0;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}  
+.grandfather>.item2,.item3,.item6{
+    /* text-align: center; */
+  padding: 20px 0;
+  font-size: 30px;
+  background-color: #c0c0c0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+}  
+.grandfather>.item4{
+    padding: 20px 0;
+  font-size: 30px;
+  background-color: #c0c0c0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+   height:400px;
+  width: 650px;  
+  margin-right: 16px;
+}
+.grandfather>.item5{
+    padding: 20px 0;
+  font-size: 30px;
+  background-color: #c0c0c0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height:400px;
+  width: 799px;  
+}
+.item1{
+    grid-column-start:1 ;
+    grid-column-end: 4;
+  /* padding: 20px 0;
+  font-size: 30px;
+  background-color: #c0c0c0;
+  align-items: center;
+  padding-left: 10px;  */
+}
+.item2{
+    grid-column-start:1 ;
+    grid-column-end: 4;
+}
+.item3{
+    grid-column-start:1 ;
+    grid-column-end: 4;
+}
+.item4{
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+ .item5{
+    grid-row-start: 4;
+    grid-row-end: 6;
+} 
+.item6{
+    grid-column-start:1 ;
+    grid-column-end: 4;
+}
+    </style>
+</head>
+<body>
+ <div class="grandfather">
+    <div class="item1">logo</div>
+    <div class="item2">navigation</div>
+    <div class="item3">header/banner</div>
+    <div class="item4">side bar</div>
+    <div class="item5">body area</div>
+    <div class="item6">footer</div>
+ </div>   
+</body>
+</html>

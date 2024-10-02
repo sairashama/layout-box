@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.baba{
+    display: grid;
+    height: 100vw;
+     font-weight: 700;
+      font-size: medium;
+     gap: 30px;
+   grid-template-areas: 
+   'a a a a b b b b b b b b'
+   /* 'a a a a b b b b b b b b' */
+   'c c c c c c c c c c c c'
+   'd d d d d d d d e e f f'
+   'd d d d d d d d e e f f'
+   'd d d d d d d d e e f f'
+   'd d d d d d d d e e f f'
+   'd d d d d d d d e e f f'
+   'g g g g g g g g e e i i'
+    'g g g g g g g g h h i i'
+    'g g g g g g g g h h i i'
+    'g g g g g g g g h h i i'
+    'g g g g g g g g h h i i'
+   'j j j j j j j j h h i i'
+   'j j j j j j j j h h i i'
+   'j j j j j j j j h h i i'
+   'j j j j j j j j h h k k'
+   'j j j j j j j j h h k k'
+   'j j j j j j j j h h k k'
+   'l l l l l l l l l l l l'
+   'l l l l l l l l l l l l';
+}
+  .box-1{grid-area: a;}
+ .box-2{grid-area:b;} 
+ .box-3{grid-area: c;}
+ .box-4{grid-area: d;}
+ .box-5{grid-area: e;}
+ .box-6{grid-area: f;}
+ .box-7{grid-area: g;}
+ .box-8{grid-area: h;}
+ .box-9{grid-area:i;}
+ .box-10{grid-area:j;}
+ .box-11{grid-area:k;}
+ .box-12{grid-area:l;}
+ .box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9,.box-10,.box-11,.box-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #b2b2b2;
+ }
+ .box-1{
+   margin-right: 350px;
+  } 
+    </style>
+</head>
+<body>
+   <div class="baba">
+    <!-- <div class="one">  -->
+    <div class="box-1">logo</div>
+   <!-- </div>  -->
+  <div class="box-2">future banner ad</div> 
+  <div class="box-3">main navigation</div>
+  <div class="box-4">deal of the week</div>
+  <div class="box-5">membership <br> sign up</div>
+  <div class="box-6">description <br> of side</div>
+  <div class="box-7">higlinghted partners</div>
+  <div class="box-8">pet insurance</div>
+  <div class="box-9">last 5<br> blog post<br>(othorid& summary)</div>
+  <div class="box-10">hightlighted catergorized deals</div>
+  <div class="box-11">hightighted <br>discussion <br>forum posts</div>
+  <div class="box-12">footer</div>
+   </div>
+</body>
+</html>

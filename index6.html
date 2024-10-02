@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+            height: 100vw;
+            gap: 20px;
+            font-size: x-large;
+            font-weight: 700;
+        }
+        .c1,.b1,.b2,.b3,.jhole,.b4{
+      /* border: 2px solid red; */
+      background-color: #c0c0c0;
+        }
+        .c1{
+        /* display: grid; */
+        grid-column-start: 1;
+        grid-column-end:13 ;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-row-start: 1;
+       grid-row-end: 3;
+       text-align: center;
+       align-items: center;
+        }
+        .soly{
+            display:grid ;
+            grid-template-columns: repeat(4,1fr);
+            grid-column-start: 1;
+           grid-column-end:13 ;
+           grid-row-start: 3;
+           grid-row-end:11;
+           gap: 30px;
+           
+        }
+        .b1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 11;
+            grid-row-end:15;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .b2{
+            grid-column-start: 5;
+            grid-column-end: 9;
+            grid-row-start:11;
+            grid-row-end:15;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .b3{
+            grid-column-start:9;
+            grid-column-end: 13;
+            grid-row-start: 11;
+            grid-row-end:15;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .b4{
+            grid-column-start: 1;
+            grid-column-end: 13;
+            grid-row-start: 15;
+            grid-row-end:16;
+            display: flex;
+            padding-left: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="c1">
+    <div>logo</div>
+<div>navigation</div>
+</div>
+<div class="soly">
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+    <div class="jhole"></div>
+</div>
+<div class="b1">box-1</div>
+<div class="b2">box-2</div>
+<div class="b3">box-3</div>
+<div class="b4">footer</div>
+    </div>
+</body>
+</html>
